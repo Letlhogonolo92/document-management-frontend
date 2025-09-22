@@ -1,0 +1,203 @@
+/* Center everything */
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Title */
+.app-title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #3f51b5;
+  font-weight: 500;
+}
+
+.upload-card {
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 1px dashed;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+  transition: transform 0.2s, box-shadow 0.2s;
+  padding: 15px;
+  text-align: center;           /* center content */
+}
+
+/* Action buttons styling */
+
+.action-buttons {
+  justify-content: center;
+}
+
+/* Green view button */
+.view-btn {
+  color: #4caf50; /* Material green */
+}
+
+.view-btn:hover {
+  background-color: rgba(76, 175, 80, 0.1);
+  border-radius: 50%;
+}
+
+/* Red delete button */
+.delete-btn {
+  color: #f44336; /* Material red */
+}
+
+.delete-btn:hover {
+  background-color: rgba(244, 67, 54, 0.1);
+  border-radius: 50%;
+}
+
+
+.upload-card input[type="file"] {
+  margin-top: 10px;
+}
+
+
+/* Search field */
+.search-field {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+/* Search metrics */
+.search-metrics {
+  display: block;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Error card */
+.error-card {
+  margin-bottom: 15px;
+  background-color: #ffebee;
+  color: #b71c1c;
+}
+
+/* Table styling */
+.full-width-table {
+  width: 100%;
+  margin-bottom: 10px;
+  border-collapse: separate;
+  border-spacing: 0 8px; /* adds vertical spacing between rows */
+}
+
+.mat-header-cell, .mat-cell {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Alternating row colors */
+.mat-row:nth-child(even) {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.mat-row:hover {
+  background-color: #e3f2fd;
+  transform: scale(1.01);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+/* Buttons */
+button.mat-mini-fab {
+  margin: 0 5px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+button.mat-mini-fab:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Pagination buttons */
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.page-number {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Detail card */
+.detail-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Selected file */
+.selected-file {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Close button on top-right corner of card header */
+.detail-card .close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: #888;
+}
+
+.detail-card .close-btn:hover {
+  color: #f44336; /* Red on hover */
+}
+
+
+/* Loading overlay */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Table card */
+.table-card {
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.table-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* Center the table */
+table {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .search-field {
+    width: 100%;
+  }
+
+  .full-width-table {
+    font-size: 12px;
+  }
+}
