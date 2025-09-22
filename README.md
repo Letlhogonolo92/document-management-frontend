@@ -2,15 +2,31 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
 
+## Requirements
+
+- Node.js 20+
+- Angular CLI
+
 ## Development server
 
 To start a local development server, run:
 
 ```bash
-ng serve
+- cd document-management-frontend
+- node -v (must be on 20+)
+- if not run nvm use 20
+- npm install
+- ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Features
+
+- Upload files via drag & drop or file selector
+- Search documents using the input box
+- View details or delete documents using action buttons
+- Pagination available at the bottom of the list
 
 ## Code scaffolding
 
