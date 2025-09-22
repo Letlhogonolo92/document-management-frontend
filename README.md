@@ -23,10 +23,13 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 ## Features
 
-- Upload files via drag & drop or file selector
-- Search documents using the input box
-- View details or delete documents using action buttons
-- Pagination available at the bottom of the list
+- Drag & drop file upload
+- Document listing with pagination
+- Delete documents
+- Search with highlighted results
+- Responsive UI using Angular Material
+- Loading and error handling
+- Optimized search with cached results for improved performance
 
 ## Code scaffolding
 
